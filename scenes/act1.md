@@ -6,9 +6,9 @@ SceneSetup.act1();
 
 (...300)
 
-n: AND THIS IS THE HUMAN'S ANXIETY
+n: KAJ ĈI TIO ESTAS LA HUMAN'S ANXIETY
 
-n: _YOU_ ARE THE ANXIETY
+n: _VI_ ESTAS LA ANXIETY
 
 {{if window.localStorage.continueChapter=="replay"}}
 (#act1_replay)
@@ -24,11 +24,11 @@ n: _YOU_ ARE THE ANXIETY
 
 `hong({mouth:"0_neutral", eyes:"0_neutral"})`
 
-h: Oh hey! We're back here again?
+h: Ho hej! We're back here again?
 
 `hong({eyes:"0_neutral"})`
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: VIA JOB ESTAS PROTEKTI VIA HOMO FROM *DANGER*
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
@@ -42,7 +42,7 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Human! Listen, we're in danger! The player...
+b: Homo! Listen, we're in danger! La ludano...
 
 [...is gonna torture us again!](#act1_replay_torture)
 
@@ -132,7 +132,7 @@ b: Thus unraveling the fabric of this narrative universe,
 
 `bb({body:"fear"});`
 
-b: And then we'll--
+b: Kaj then ni--
 
 (#act1_replay_end)
 
@@ -141,7 +141,7 @@ b: And then we'll--
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: MORTOOOOOOOOOOOOOOOOOOS
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -164,13 +164,13 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-h: Okay let's get back into character.
+h: Bone let's get back into character.
 
 ```
 Game.clearText();
 ```
 
-n4: (LET _YOUR_ ANXIETY BLAH BLAH BLAH MOST SIMILAR TO WHAT _YOUR_ FEAR BLAH BLAH YOU KNOW THE DRILL)
+n4: (LET _VIA_ ANXIETY BLAH BLAH BLAH MOST SIMILAR TO WHAT _YOUR_ FEAR BLAH BLAH YOU KNOW THE DRILL)
 
 ```
 sfx("squeak");
@@ -186,15 +186,15 @@ bb({body:"squeeze"});
 
 `hong({mouth:"0_neutral", eyes:"0_annoyed"})`
 
-h: Oh good, my wolf's back. Faaaaantastic.
+h: Ho bone, mia lupo estas back. Faaaaantastic.
 
 `hong({eyes:"0_neutral"})`
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: VIA TASKO ESTAS PROTEKTI VIA HOMO FROM *DANGER*
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: IN FACT, THAT SANDWICH IS PUTTING THEM IN *DANGER* RIGHT NOW
+n: IN FACT, TIO SANDWICH IS PUTTING THEM IN *DANGER* RIGHT NOW
 
 n: QUICK, WARN THEM!
 
@@ -204,11 +204,11 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Human! Listen, we're in danger! The danger is...
+b: Homo! Listen, ni in danger! La danger is...
 
 `bb({body:"squeeze"})`
 
-n4: (LET _YOUR_ ANXIETY COME OUT TO PLAY! PICK WHAT'S MOST SIMILAR TO WHAT _YOUR_ FEAR TELLS YOU)
+n4: (LET _VIA_ ANXIETY COME OUT TO PLAY! PICK WHAT'S MOST SIMILAR TO WHAT _VIA_ FEAR TELLS YOU)
 
 (#act1_normal_choice)
 
@@ -218,7 +218,7 @@ n4: (LET _YOUR_ ANXIETY COME OUT TO PLAY! PICK WHAT'S MOST SIMILAR TO WHAT _YOUR
 
 [We're not productive while eating!](#act1a_productive) `bb({body:"squeeze_talk"})`
 
-[That white bread's bad for us!](#act1a_bread) `bb({body:"squeeze_talk"})`
+[Tio white bread's bad for us!](#act1a_bread) `bb({body:"squeeze_talk"})`
 
 # act1a_alone
 
@@ -237,17 +237,17 @@ b: (Holt-Lunstad 2010, PLoS Medicine)
 
 `hong({eyes:"0_annoyed"})`
 
-h: Um, thanks for citing your sources but--
+h: Um, dankon for citing your sources sed--
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
 `bb({body:"fear", mouth:"normal", eyes:"fear"})`
 
-b: Which means if we don't hang out with someone *right now* we're gonna-
+b: Which means if we don't hang out with someone *right now* ni-
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: MORTOOOOOOOOOOOOOOOOOOS
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -260,7 +260,7 @@ publish("hp_show");
 
 `_.fifteencigs = true`
 
-n: YOU USED *FEAR OF BEING UNLOVED*
+n: VI UZIS *TIMO DE BEING UNLOVED*
 
 (#act1b)
 
