@@ -6,9 +6,9 @@ SceneSetup.act1();
 
 (...300)
 
-n: KAJ ĈI TIO ESTAS LA HUMAN'S ANXIETY
+n: KAJ ĈI TIO ESTAS LA ANKSIO DE HOMO
 
-n: _VI_ ESTAS LA ANXIETY
+n: _VI_ ESTAS LA ANKSIO
 
 {{if window.localStorage.continueChapter=="replay"}}
 (#act1_replay)
@@ -190,11 +190,11 @@ h: Ho bone, mia lupo estas back. Faaaaantastic.
 
 `hong({eyes:"0_neutral"})`
 
-n: VIA TASKO ESTAS PROTEKTI VIA HOMO FROM *DANGER*
+n: VIA TASKO ESTAS PROTEKTI VIA HOMO EL *DANĜERO*
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: IN FACT, TIO SANDWICH IS PUTTING THEM IN *DANGER* RIGHT NOW
+n: IN FACT, TIO SANDWICH IS PUTTING THEM IN *DANĜER* RIGHT NOW
 
 n: QUICK, WARN THEM!
 
@@ -204,17 +204,17 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Homo! Listen, ni in danger! La danger is...
+b: Homo! Listen, ni in danger! La danĝero estas...
 
 `bb({body:"squeeze"})`
 
-n4: (LET _VIA_ ANXIETY COME OUT TO PLAY! PICK WHAT'S MOST SIMILAR TO WHAT _VIA_ FEAR TELLS YOU)
+n4: (LET _VIA_ ANKSIO COME OUT TO PLAY! PICK WHAT'S MOST SIMILAR TO WHAT _VIA_ TIMO TELLS YOU)
 
 (#act1_normal_choice)
 
 # act1_normal_choice
 
-[We're eating alone for lunch! Again!](#act1a_alone) `bb({body:"squeeze_talk"})`
+[Ni manĝas alone for lunch! Again!](#act1a_alone) `bb({body:"squeeze_talk"})`
 
 [We're not productive while eating!](#act1a_productive) `bb({body:"squeeze_talk"})`
 
